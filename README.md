@@ -1,36 +1,31 @@
-# Personal Portfolio Website in React
+Portfólio Pessoal | Robert Gean
+Este é o repositório do meu portfólio profissional, desenvolvido para apresentar minha trajetória como desenvolvedor e os projetos que venho construindo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+👤 Perfil Profissional
+Sou estudante de Análise e Desenvolvimento de Sistemas (3º semestre) com foco em Back-end (Java & Spring Boot). Atualmente, busco aprimorar meus conhecimentos em integração Full-Stack utilizando React e Angular, priorizando sempre a eficiência e a escalabilidade dos sistemas.
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+🛠️ Stack Tecnológica
+Front-end: React.js, React-Bootstrap, Animate.css.
 
-Built using:
+Back-end (Foco): Java, Spring Boot, SQL (PostgreSQL).
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+Ferramentas: Git/GitHub, Linux (Ubuntu), Formspree API.
 
-In the /personal-portfolio, you can run:
+💻 Funcionalidades do Projeto
+Banner Dinâmico: Efeito de digitação apresentando minhas especialidades.
 
-### `npm start`
+Skills: Seção interativa com as tecnologias que domino.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contact Form: Formulário 100% funcional integrado via API para recebimento de e-mails.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsividade: Interface adaptada para dispositivos móveis e desktop.
 
-### `npm test`
+🚀 Instalação e Execução
+Clone o repositório: git clone https://github.com/RobertGean/meuPortifolio.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instale as dependências: npm install
 
-### `npm run build`
+Inicie o projeto: npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📄 Créditos
+Projeto desenvolvido a partir de bases de portfólio em React e totalmente personalizado para refletir minha identidade e competências atuais.
