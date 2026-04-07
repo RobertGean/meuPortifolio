@@ -11,9 +11,16 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <MailchimpForm />
+          
+          {/* Mantemos a coluna (sm={6}), mas escondemos a imagem dentro dela */}
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            <img 
+              src={logo} 
+              alt="Logo" 
+              style={{ visibility: 'hidden' }} 
+            />
           </Col>
+
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a
@@ -23,13 +30,7 @@ export const Footer = () => {
               >
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a
-                href="https://www.instagram.com/_robert_gean_/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={navIcon3} alt="Instagram" />
-              </a>
+              {/* Adicione os outros ícones aqui se desejar, como no NavBar */}
             </div>
             <p>Copyright 2026. Todos os direitos reservados.</p>
           </Col>

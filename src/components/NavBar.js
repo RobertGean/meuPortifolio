@@ -33,12 +33,16 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          
+          {/* O logo abaixo está invisível, mas mantém o espaço reservado no layout */}
+          <Navbar.Brand href="#home" style={{ visibility: 'hidden' }}>
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+          
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
@@ -72,27 +76,15 @@ export const NavBar = () => {
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <span className="navbar-text">
-                <div className="social-icon">
-                  {/* Link para o LinkedIn */}
-                  <a
-                    href="https://www.linkedin.com/in/robertgean/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={navIcon1} alt="LinkedIn" />
-                  </a>
-
-                  {/* Link para o Instagram */}
-                  <a
-                    href="https://www.instagram.com/_robert_gean_/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={navIcon3} alt="Instagram" />
-                  </a>
-                </div>
-              </span>
+              <div className="social-icon">
+                <a
+                  href="https://www.linkedin.com/in/robertgean/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={navIcon1} alt="LinkedIn" />
+                </a>
+              </div>
               <HashLink to="#connect">
                 <button className="vvd">
                   <span>Contate-me</span>
